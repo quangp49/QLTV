@@ -1,0 +1,77 @@
+F:/QLTV_OOP/QLTV_OOP/bin/Debug/QLTV_OOP.exe.config
+F:/QLTV_OOP/QLTV_OOP/bin/Debug/QLTV_OOP.exe
+F:/QLTV_OOP/QLTV_OOP/bin/Debug/QLTV_OOP.pdb
+F:/QLTV_OOP/QLTV_OOP/bin/Debug/FontAwesome.Sharp.dll
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.csproj.AssemblyReference.cache
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Danh_mục.danhmucMain.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Danh_mục.DanhsachChucvu.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Danh_mục.Danhsachdausach.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Danh_mục.Danhsachmaytinh.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Danh_mục.Danhsachnguoidoc.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Danh_mục.Danhsachnhanvien.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Danh_mục.Danhsachphongdoc.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Danh_mục.Danhsachtuasach.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Hệ_thống.DangkyTK.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Hệ_thống.DoiMK.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Hệ_thống.hethongMain.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Hệ_thống.Phanquyen.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Hệ_thống.Thongtintaikhoan.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.LoadForm.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Login.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Main.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Quản_lý.Chitietphieu.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Quản_lý.Chitietphieu2.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Quản_lý.Phieutra.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Quản_lý.quanlyMain.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Quản_lý.Quanlymaytinhsudung.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Quản_lý.Quanlyphieumuon.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Quản_lý.Quanlyphieutra.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Quản_lý.Xulysuco.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Thống_kê.LuongNV.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Thống_kê.thongkeMain.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Thống_kê.Thongkesachmuontheongay.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.Properties.Resources.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.Test.resources
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.csproj.GenerateResource.cache
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.csproj.CoreCompileInputs.cache
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.exe
+F:/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.pdb
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/bin/Debug/QLTV_OOP.exe.config
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/bin/Debug/QLTV_OOP.exe
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/bin/Debug/QLTV_OOP.pdb
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/bin/Debug/FontAwesome.Sharp.dll
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.csproj.AssemblyReference.cache
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Danh_mục.danhmucMain.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Danh_mục.DanhsachChucvu.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Danh_mục.Danhsachdausach.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Danh_mục.Danhsachmaytinh.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Danh_mục.Danhsachnguoidoc.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Danh_mục.Danhsachnhanvien.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Danh_mục.Danhsachphongdoc.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Danh_mục.Danhsachtuasach.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Hệ_thống.DangkyTK.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Hệ_thống.DoiMK.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Hệ_thống.hethongMain.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Hệ_thống.Phanquyen.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Hệ_thống.Thongtintaikhoan.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.LoadForm.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Login.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Main.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Quản_lý.Chitietphieu.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Quản_lý.Chitietphieu2.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Quản_lý.Phieutra.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Quản_lý.quanlyMain.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Quản_lý.Quanlymaytinhsudung.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Quản_lý.Quanlyphieumuon.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Quản_lý.Quanlyphieutra.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Quản_lý.Xulysuco.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Thống_kê.LuongNV.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Thống_kê.thongkeMain.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.GUI.Thống_kê.Thongkesachmuontheongay.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.Properties.Resources.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.Test.resources
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.csproj.GenerateResource.cache
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.csproj.CoreCompileInputs.cache
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.csproj.CopyComplete
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.exe
+/Users/quangpham/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/20211/Lập trình hướng đối tượng/QLTV_OOP/QLTV_OOP/obj/Debug/QLTV_OOP.pdb

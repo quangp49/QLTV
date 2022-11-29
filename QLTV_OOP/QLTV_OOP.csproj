@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6151C69C-F90B-4F00-8B61-A667D4BDB082}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QLTV_OOP</RootNamespace>
+    <AssemblyName>QLTV_OOP</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="FontAwesome.Sharp">
+      <HintPath>..\packages\FontAwesome.Sharp.6.1.1\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\ChitietphieuBLL.cs" />
+    <Compile Include="BLL\ChucvuBLL.cs" />
+    <Compile Include="BLL\DausachBLL.cs" />
+    <Compile Include="BLL\LoginBLL.cs" />
+    <Compile Include="BLL\MaytinhBLL.cs" />
+    <Compile Include="BLL\NguoidocBLL.cs" />
+    <Compile Include="BLL\NhanvienBLL.cs" />
+    <Compile Include="BLL\PhieumuonBLL.cs" />
+    <Compile Include="BLL\PhongdocBLL.cs" />
+    <Compile Include="BLL\SucoBLL.cs" />
+    <Compile Include="BLL\TaikhoanBLL.cs" />
+    <Compile Include="DAL\ChitietphieuDAL.cs" />
+    <Compile Include="DAL\ChucvuDAL.cs" />
+    <Compile Include="DAL\DataConnection.cs" />
+    <Compile Include="DAL\DausachDAL.cs" />
+    <Compile Include="DAL\LoginDAL.cs" />
+    <Compile Include="DAL\MaytinhDAL.cs" />
+    <Compile Include="DAL\NguoidocDAL.cs" />
+    <Compile Include="DAL\NhanvienDAL.cs" />
+    <Compile Include="DAL\PhieumuonDAL.cs" />
+    <Compile Include="DAL\PhongdocDAL.cs" />
+    <Compile Include="DAL\SucoDAL.cs" />
+    <Compile Include="DAL\TaikhoanDAL.cs" />
+    <Compile Include="DTO\ChucvuDTO.cs" />
+    <Compile Include="DTO\DausachDTO.cs" />
+    <Compile Include="DTO\MaytinhDTO.cs" />
+    <Compile Include="DTO\NguoidocDTO.cs" />
+    <Compile Include="DTO\PhongdocDTO.cs" />
+    <Compile Include="DTO\SucoDTO.cs" />
+    <Compile Include="DTO\TaikhoanDTO.cs" />
+    <Compile Include="DTO\LoginDTO.cs" />
+    <Compile Include="DTO\NhanvienDTO.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Danh mục\danhmucMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Danh mục\danhmucMain.Designer.cs">
+      <DependentUpon>danhmucMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Danh mục\DanhsachChucvu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Danh mục\DanhsachChucvu.Designer.cs">
+      <DependentUpon>DanhsachChucvu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Danh mục\Danhsachdausach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Danh mục\Danhsachdausach.Designer.cs">
+      <DependentUpon>Danhsachdausach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Danh mục\Danhsachmaytinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Danh mục\Danhsachmaytinh.Designer.cs">
+      <DependentUpon>Danhsachmaytinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Danh mục\Danhsachnguoidoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Danh mục\Danhsachnguoidoc.Designer.cs">
+      <DependentUpon>Danhsachnguoidoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Danh mục\Danhsachnhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Danh mục\Danhsachnhanvien.Designer.cs">
+      <DependentUpon>Danhsachnhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Danh mục\Danhsachphongdoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Danh mục\Danhsachphongdoc.Designer.cs">
+      <DependentUpon>Danhsachphongdoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Danh mục\Danhsachtuasach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Danh mục\Danhsachtuasach.Designer.cs">
+      <DependentUpon>Danhsachtuasach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Hệ thống\DangkyTK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Hệ thống\DangkyTK.Designer.cs">
+      <DependentUpon>DangkyTK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Hệ thống\DoiMK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Hệ thống\DoiMK.Designer.cs">
+      <DependentUpon>DoiMK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Hệ thống\hethongMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Hệ thống\hethongMain.Designer.cs">
+      <DependentUpon>hethongMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Hệ thống\Phanquyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Hệ thống\Phanquyen.Designer.cs">
+      <DependentUpon>Phanquyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Hệ thống\Thongtintaikhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Hệ thống\Thongtintaikhoan.Designer.cs">
+      <DependentUpon>Thongtintaikhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\LoadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\LoadForm.Designer.cs">
+      <DependentUpon>LoadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Quản lý\Chitietphieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Quản lý\Chitietphieu.Designer.cs">
+      <DependentUpon>Chitietphieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Quản lý\Chitietphieu2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Quản lý\Chitietphieu2.Designer.cs">
+      <DependentUpon>Chitietphieu2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Quản lý\Phieutra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Quản lý\Phieutra.Designer.cs">
+      <DependentUpon>Phieutra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Quản lý\quanlyMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Quản lý\quanlyMain.Designer.cs">
+      <DependentUpon>quanlyMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Quản lý\Quanlymaytinhsudung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Quản lý\Quanlymaytinhsudung.Designer.cs">
+      <DependentUpon>Quanlymaytinhsudung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Quản lý\Quanlyphieumuon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Quản lý\Quanlyphieumuon.Designer.cs">
+      <DependentUpon>Quanlyphieumuon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Quản lý\Quanlyphieutra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Quản lý\Quanlyphieutra.Designer.cs">
+      <DependentUpon>Quanlyphieutra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Quản lý\Xulysuco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Quản lý\Xulysuco.Designer.cs">
+      <DependentUpon>Xulysuco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Thống kê\LuongNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Thống kê\LuongNV.Designer.cs">
+      <DependentUpon>LuongNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Thống kê\thongkeMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Thống kê\thongkeMain.Designer.cs">
+      <DependentUpon>thongkeMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Thống kê\Thongkesachmuontheongay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Thống kê\Thongkesachmuontheongay.Designer.cs">
+      <DependentUpon>Thongkesachmuontheongay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GUI\Danh mục\danhmucMain.resx">
+      <DependentUpon>danhmucMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Danh mục\DanhsachChucvu.resx">
+      <DependentUpon>DanhsachChucvu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Danh mục\Danhsachdausach.resx">
+      <DependentUpon>Danhsachdausach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Danh mục\Danhsachmaytinh.resx">
+      <DependentUpon>Danhsachmaytinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Danh mục\Danhsachnguoidoc.resx">
+      <DependentUpon>Danhsachnguoidoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Danh mục\Danhsachnhanvien.resx">
+      <DependentUpon>Danhsachnhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Danh mục\Danhsachphongdoc.resx">
+      <DependentUpon>Danhsachphongdoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Danh mục\Danhsachtuasach.resx">
+      <DependentUpon>Danhsachtuasach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Hệ thống\DangkyTK.resx">
+      <DependentUpon>DangkyTK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Hệ thống\DoiMK.resx">
+      <DependentUpon>DoiMK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Hệ thống\hethongMain.resx">
+      <DependentUpon>hethongMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Hệ thống\Phanquyen.resx">
+      <DependentUpon>Phanquyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Hệ thống\Thongtintaikhoan.resx">
+      <DependentUpon>Thongtintaikhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\LoadForm.resx">
+      <DependentUpon>LoadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Quản lý\Chitietphieu.resx">
+      <DependentUpon>Chitietphieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Quản lý\Chitietphieu2.resx">
+      <DependentUpon>Chitietphieu2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Quản lý\Phieutra.resx">
+      <DependentUpon>Phieutra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Quản lý\quanlyMain.resx">
+      <DependentUpon>quanlyMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Quản lý\Quanlymaytinhsudung.resx">
+      <DependentUpon>Quanlymaytinhsudung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Quản lý\Quanlyphieumuon.resx">
+      <DependentUpon>Quanlyphieumuon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Quản lý\Quanlyphieutra.resx">
+      <DependentUpon>Quanlyphieutra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Quản lý\Xulysuco.resx">
+      <DependentUpon>Xulysuco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Thống kê\LuongNV.resx">
+      <DependentUpon>LuongNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Thống kê\thongkeMain.resx">
+      <DependentUpon>thongkeMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Thống kê\Thongkesachmuontheongay.resx">
+      <DependentUpon>Thongkesachmuontheongay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\addAccount.png" />
+    <Content Include="Resources\bug.png" />
+    <Content Include="Resources\changePw.jpg" />
+    <Content Include="Resources\computer.png" />
+    <None Include="Resources\computer1.png" />
+    <Content Include="Resources\danhmucIcon.jpg" />
+    <Content Include="Resources\help.png" />
+    <Content Include="Resources\hethongIcon.jpg" />
+    <Content Include="Resources\loginImage.jpg" />
+    <Content Include="Resources\logo.jpg" />
+    <None Include="Resources\logoImage.png" />
+    <Content Include="Resources\logout.png" />
+    <Content Include="Resources\OffIcon.png" />
+    <Content Include="Resources\OnIcon.png" />
+    <Content Include="Resources\phieumuonIcon.jpg" />
+    <None Include="Resources\phieumuonIcon1.jpg" />
+    <Content Include="Resources\quanlyIcon.jpg" />
+    <Content Include="Resources\resetPw.png" />
+    <Content Include="Resources\saveIcon.png" />
+    <Content Include="Resources\search.png" />
+    <None Include="Resources\search1.png" />
+    <Content Include="Resources\signup.png" />
+    <Content Include="Resources\thongkeIcon.png" />
+    <Content Include="Resources\userIcon.png" />
+    <Content Include="Resources\video2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

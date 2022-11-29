@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{6151C69C-F90B-4F00-8B61-A667D4BDB082}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="QLTV_OOP/GUI/Login.cs">
+    <Files>
+      <File FileName="QLTV_OOP/BLL/ChitietphieuBLL.cs" Line="18" Column="10" />
+      <File FileName="QLTV_OOP/Program.cs" Line="1" Column="1" />
+      <File FileName="QLTV_OOP/App.config" Line="1" Column="1" />
+      <File FileName="QLTV_OOP/GUI/Main.cs" Line="1" Column="1" />
+      <File FileName="QLTV_OOP/GUI/Login.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="QLTV_OOP" expanded="True">
+            <Node name="QLTV_OOP" expanded="True">
+              <Node name="References" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.QLTV__OOP PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
